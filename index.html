@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-8</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        .header {
+            background-color: grey;
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            line-height: center;
+            margin: auto;
+            color: white;
+        }
+
+        .header ul li a:hover {
+            background-color: white;
+            color: black;
+            padding: 20px;
+        }
+
+        .header ul {
+            list-style: none;
+            display: inline-flex;
+            text-align: center;
+            line-height: center;
+        }
+
+        .header ul li {
+            padding: 40px;
+            margin-left: 100px;
+            line-height: center;
+        }
+
+        .img img {
+            margin-top: 20px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .txt {
+            color: white;
+            position: absolute;
+            margin: 50px;
+        }
+
+        .sections {
+            display: inline-flex;
+        }
+
+        .section1 img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            margin: 80px;
+        }
+    </style>
 </head>
+</style>
+
 <body>
-    
+    <a id="top"></a>
+    <div class="header">
+        <ul>
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#About us">ABOUT US</a></li>
+            <li><a href="#Team">TEAM</a></li>
+            <li><a href="#Technologies">TECHNOLOGIES</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="img" id="Home">
+        <div <h1 style="position: absolute;margin-top: 50px;color: white;margin-left: 50px;font-size: 80px;">Practical-8
+            </h1>
+        </div>
+        <img src="./pic2.jpg" alt="" />
+    </div>
+    <div id="Team">
+        <h1 style="text-align: center;margin-top:50px;">Team Members</h1>
+    </div>
+    <div class="sections">
+        <div class="section1"><img src="./pict1.jpg" alt="" /></div>
+        <div class="section1"><img src="./pict2.jpg" alt="" /></div>
+        <div class="section1"><img src="./pict3.jpg" alt="" /></div>
+        <div class="section1"><img src="./pict4.jpg" alt="" /></div>
+    </div>
+
 </body>
+
 </html>
